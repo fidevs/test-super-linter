@@ -1,4 +1,4 @@
-name: Lint Code Base
+name: CI/CD
 
 on:
   push:
@@ -7,15 +7,16 @@ on:
     branches: [main]
 
 jobs:
-  check-code-lint:
-    name: Lint Code Base
+  build:
+    name: Build and Lint
     runs-on: ubuntu-latest
     steps:
+      # Checkout code
       - name: Checkout code
         uses: actions/checkout@v2.4.2
         with:
           fetch-depth: 0
-
+      # Lint code
       - name: Lint Code Base
         uses: github/super-linter/slim@latest
         env:
@@ -23,3 +24,7 @@ jobs:
           VALIDATE_ALL_CODEBASE: false
           DEFAULT_BRANCH: main
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+          LINTER_RULES_PATH: /
+          JAVASCRIPT_ES_CONFIG_FILE: .eslintrc.yml
+          VALIDATE_JAVASCRIPT_ES: true
