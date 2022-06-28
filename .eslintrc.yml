@@ -1,0 +1,17 @@
+## JavaScript Linter rules ##
+
+# Env Vars #
+env:
+  browser: true
+  es2021: true
+
+extends: 'eslint:recommended'
+
+# Parser vars #
+parserOptions:
+  ecmaVersion: 2021
+
+# Rules #
+rules: {
+  "semi": ["error": "always"]
+}
