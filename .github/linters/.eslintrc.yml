@@ -14,7 +14,7 @@ parserOptions:
 # Rules #
 rules: {
   "semi": [2, "always"],
-  "indent": [1, 2],
-  "space-before-blocks": 1,
-  "spaced-comment": [1, "always"]
+  "indent": [2, 2],
+  "space-before-blocks": 2,
+  "spaced-comment": [2, "always"]
 }
