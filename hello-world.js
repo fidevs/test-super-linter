@@ -1,5 +1,7 @@
 const greeting = 'Hello World!';
 
-function helloWorld(greeting){
-    console.log(greeting);
+helloWorld(greeting);
+
+function helloWorld(greeting) {
+  console.log(greeting);
 }
