@@ -1,5 +1,7 @@
 const greeting = 'Hello World!';
 
-console.log(greeting);
+helloWorld(greeting);
 
-console.log('Hello World');
+function helloWorld(greeting) {
+  console.log(greeting);
+}

@@ -13,5 +13,6 @@ parserOptions:
 
 # Rules #
 rules: {
-  "semi": [2, "always"]
+  "semi": [2, "always"],
+  "indent": [1, 2]
 }
