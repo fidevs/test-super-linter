@@ -9,7 +9,7 @@ extends: 'eslint:recommended'
 
 # Parser vars #
 parserOptions:
-  ecmaVersion: 2021
+  ecmaVersion: latest
 
 # Rules #
 rules: {

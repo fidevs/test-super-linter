@@ -1,0 +1,22 @@
+{
+  "name": "test-super-linter",
+  "version": "1.0.0",
+  "description": "Package to test super linter action with GitHub",
+  "main": "hello-world.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fidevs/test-super-linter.git"
+  },
+  "author": "fidev.id@outlook.com",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/fidevs/test-super-linter/issues"
+  },
+  "homepage": "https://github.com/fidevs/test-super-linter#readme",
+  "devDependencies": {
+    "eslint": "^8.18.0"
+  }
+}
