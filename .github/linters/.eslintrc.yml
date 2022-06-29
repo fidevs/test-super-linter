@@ -14,5 +14,6 @@ parserOptions:
 # Rules #
 rules: {
   "semi": [2, "always"],
-  "indent": [1, 2]
+  "indent": [1, 2],
+  "space-before-blocks": 1
 }
