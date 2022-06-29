@@ -1,5 +1,5 @@
 // Greeting to print in console
-const greeting = 'Hello World!'
+const greeting = 'Hello World!';
 
 // Function to execute prints
 helloWorld(greeting);
