@@ -16,5 +16,22 @@ rules: {
   "semi": [2, "always"],
   "indent": [2, 2],
   "space-before-blocks": 2,
-  "spaced-comment": [2, "always"]
+  "spaced-comment": [2, "always"],
+  "no-iterator": 2,
+  "no-restricted-syntax": [
+    2,
+#    "FunctionExpression",
+    "WithStatement",
+    "BinaryExpression[operator='in']"
+  ],
+  "no-new-object": 2,
+  "object-shorthand": 2,
+  "no-array-constructor": 2,
+  "prefer-arrow-callback": 2,
+  "arrow-spacing": 2,
+  "eqeqeq": 2,
+  "space-infix-ops": 2,
+  "camelcase": 2,
+  "new-cap": 2,
+#  "quotes": [2, 'single']
 }
