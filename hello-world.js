@@ -24,6 +24,6 @@ function helloWorld(greeting) {
     console.log(name);
   }
   if(greeting === "Hi") {
-    console.log("Hi World!");
+    console.log("Hi Arkon World!");
   } else console.log("Say " + greeting);
 }
