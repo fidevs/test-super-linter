@@ -1,6 +1,6 @@
 // Greeting to print in console
 const greeting = "Hello World!";
-const array_Names = ["Juan", "Antonio", "Marcos"];
+const arrayNames = ["Juan", "Antonio", "Marcos"];
 const person = {
   id: 1,
   years: 20,
@@ -18,9 +18,9 @@ helloWorld(greeting);
  */
 function helloWorld(greeting) {
   console.log("Person", person);
-  array_Names.map(name => console.log(name));
-  for (let i = 0; i < array_Names.length; i++) {
-    const name = array_Names[i];
+  arrayNames.map(name => console.log(name));
+  for (let i = 0; i < arrayNames.length; i++) {
+    const name = arrayNames[i];
     console.log(name);
   }
   if(greeting === "Hi") {
