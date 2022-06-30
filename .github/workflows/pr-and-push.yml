@@ -29,3 +29,5 @@ jobs:
           LINTER_RULES_PATH: /
           JAVASCRIPT_ES_CONFIG_FILE: .eslintrc.yml
           VALIDATE_JAVASCRIPT_ES: true
+          GROOVY_CONFIG_FILE: .groovylintrc.json
+          VALIDATE_GROOVY: true
