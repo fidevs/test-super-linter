@@ -1,10 +1,10 @@
 // Greeting to print in console
 const greeting = "Hello World!";
-const arrayNames = ["Juan", "Antonio", "Marcos"];
+const arrayNames = new Array ("Juan", "Antonio", "Marcos");
 const person = {
   id: 1,
   years: 20,
-  printName: function () {
+  printName() {
     console.log("My name is Antonio");
   }
 };

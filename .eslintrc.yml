@@ -20,10 +20,11 @@ rules: {
   "no-iterator": 2,
   "no-restricted-syntax": [
     2,
-    "FunctionExpression",
+#    "FunctionExpression",
     "WithStatement",
     "BinaryExpression[operator='in']"
   ],
   "no-new-object": 2,
   "object-shorthand": 2,
+  "no-array-constructor": 2,
 }
