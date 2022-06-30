@@ -19,11 +19,11 @@ helloWorld(greeting);
 function helloWorld(greeting) {
   console.log("Person", person);
   arrayNames.map(name => console.log(name));
-  for (let i = 0; i < arrayNames.length; i++) {
+  for (let i=0; i<arrayNames.length; i++) {
     const name = arrayNames[i];
     console.log(name);
   }
-  if(greeting == "Hi") {
+  if(greeting === "Hi") {
     console.log("Hi World!");
   } else console.log("Say " + greeting);
 }

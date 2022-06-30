@@ -30,4 +30,5 @@ rules: {
   "prefer-arrow-callback": 2,
   "arrow-spacing": 2,
   "eqeqeq": 2,
+  "space-infix-ops": 2,
 }
