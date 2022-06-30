@@ -29,4 +29,5 @@ rules: {
   "no-array-constructor": 2,
   "prefer-arrow-callback": 2,
   "arrow-spacing": 2,
+  "eqeqeq": 2,
 }
