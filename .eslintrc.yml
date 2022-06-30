@@ -27,4 +27,6 @@ rules: {
   "no-new-object": 2,
   "object-shorthand": 2,
   "no-array-constructor": 2,
+  "prefer-arrow-callback": 2,
+  "arrow-spacing": 2,
 }
