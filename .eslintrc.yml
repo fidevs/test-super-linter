@@ -31,4 +31,6 @@ rules: {
   "arrow-spacing": 2,
   "eqeqeq": 2,
   "space-infix-ops": 2,
+  "camelcase": 2,
+  "new-cap": 2,
 }
