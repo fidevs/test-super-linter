@@ -23,5 +23,6 @@ rules: {
     "FunctionExpression",
     "WithStatement",
     "BinaryExpression[operator='in']"
-  ]
+  ],
+  "no-new-object": 2,
 }
