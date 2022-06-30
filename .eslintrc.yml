@@ -25,4 +25,5 @@ rules: {
     "BinaryExpression[operator='in']"
   ],
   "no-new-object": 2,
+  "object-shorthand": 2,
 }

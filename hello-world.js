@@ -1,7 +1,13 @@
 // Greeting to print in console
 const greeting = "Hello World!";
 const arrayNames = ["Juan", "Antonio", "Marcos"];
-const person = new Object();
+const person = {
+  id: 1,
+  years: 20,
+  printName: function () {
+    console.log("My name is Antonio");
+  }
+};
 
 // Function to execute prints
 helloWorld(greeting);
