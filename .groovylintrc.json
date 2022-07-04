@@ -13,6 +13,7 @@
         "ClosureAsLastMethodParameter": {
             "enabled": false
         },
+        "CompileStatic": "error",
         "DuplicateNumberLiteral": {
             "enabled": false
         },
