@@ -13,7 +13,9 @@
         "ClosureAsLastMethodParameter": {
             "enabled": false
         },
-        "CompileStatic": "error",
+        "CompileStatic": {
+            "enabled": false
+        },
         "DuplicateNumberLiteral": {
             "enabled": false
         },
@@ -47,6 +49,7 @@
         "SystemExit": {
             "enabled": false
         },
+        "UnnecessaryGString": "error",
         "UnnecessaryGetter": {
             "enabled": false
         },

@@ -1,3 +1,3 @@
-def codes = 'Hola'
+def codes = "Hola"
 
 println "${codes} Mundo"
