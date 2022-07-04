@@ -16,12 +16,14 @@ helloWorld(greeting);
  * Print some greeting in console
  * @param {string} greeting Greeting to display to user
  */
-function helloWorld(greeting) {
+function helloWorld(greeting,
+  a = 0) {
   console.log('Person', person);
   arrayNames.map(name => console.log(name));
   for (let i = 0; i < arrayNames.length; i++) {
     const name = arrayNames[i];
-    console.log(name);
+    greeting = name;
+    console.log(`${greeting} = ${a}`);
   }
   if(greeting === 'Hi') {
     console.log('Hi Arkon World!');

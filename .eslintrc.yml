@@ -33,5 +33,15 @@ rules: {
   "space-infix-ops": 2,
   "camelcase": 2,
   "new-cap": 2,
-  "quotes": [2, 'single']
+  "quotes": [2, 'single'],
+  "no-loop-func": 2,
+  "prefer-rest-params": 2,
+  "default-param-last": 2,
+  "no-new-func": 2,
+  "no-param-reassign": 2,
+  "function-paren-newline": [2, "multiline"],
+  "arrow-parens": 2,
+  "arrow-body-style": [2, "as-needed"],
+  "no-confusing-arrow": 2,
+  "implicit-arrow-linebreak": [2, "beside"],
 }
