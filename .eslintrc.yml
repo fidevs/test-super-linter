@@ -33,5 +33,6 @@ rules: {
   "space-infix-ops": 2,
   "camelcase": 2,
   "new-cap": 2,
-  "quotes": [2, 'single']
+  "quotes": [2, 'single'],
+  "no-loop-func": 2
 }

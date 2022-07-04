@@ -22,6 +22,8 @@ function helloWorld(greeting) {
   for (let i = 0; i < arrayNames.length; i++) {
     const name = arrayNames[i];
     console.log(name);
+
+    (function() { return i; })();
   }
   if(greeting === 'Hi') {
     console.log('Hi Arkon World!');
