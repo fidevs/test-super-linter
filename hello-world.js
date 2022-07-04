@@ -23,6 +23,8 @@ function helloWorld(greeting) {
     const name = arrayNames[i];
     console.log(name);
 
+    function a() { return i; };
+
     (function() { return i; })();
   }
   if(greeting === 'Hi') {
