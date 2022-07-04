@@ -16,14 +16,12 @@ helloWorld(greeting);
  * Print some greeting in console
  * @param {string} greeting Greeting to display to user
  */
-function helloWorld(greeting) {
+function helloWorld(a = 0, greeting) {
   console.log('Person', person);
   arrayNames.map(name => console.log(name));
   for (let i = 0; i < arrayNames.length; i++) {
     const name = arrayNames[i];
     console.log(name);
-
-    function a() { return i; };
 
     (function() { return i; })();
   }

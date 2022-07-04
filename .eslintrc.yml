@@ -34,5 +34,7 @@ rules: {
   "camelcase": 2,
   "new-cap": 2,
   "quotes": [2, 'single'],
-  "no-loop-func": 2
+  "no-loop-func": 2,
+  "prefer-rest-params": 2,
+  "default-param-last": 2,
 }
